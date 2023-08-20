@@ -8,7 +8,7 @@ for i in range(10):
     user_number = int(input("enter your number (you can guess 10 times at max): "))
 
     if user_number == pc_number :
-        print("well done! you guessed the correct number after" , i , "time(s)")
+        print("well done! you guessed the correct number after" , i+1 , "time(s)")
         break
     if user_number < pc_number :
         print("wrong! go higher!")
